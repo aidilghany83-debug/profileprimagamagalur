@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEW PRIMAGAMA GALUR – Bimbingan Belajar Powered by Zenius</title>
+<meta name="description" content="NEW PRIMAGAMA GALUR – bimbingan belajar untuk meraih prestasi dan masa depan gemilang. Powered by Zenius.">
+<link rel="icon" href="logo-primagama.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+<!-- POP-UP PILIHAN ADMIN WHATSAPP -->
+<div class="admin-modal" id="adminModal" aria-hidden="true">
+  <div class="admin-modal-backdrop" data-close-modal></div>
+
+  <div
+    class="admin-modal-content"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="adminModalTitle"
+  >
+    <button
+      type="button"
+      class="admin-modal-close"
+      id="closeAdminModal"
+      aria-label="Tutup pop-up"
+    >&times;</button>
+
+    <div class="admin-modal-icon">💬</div>
+
+    <h2 id="adminModalTitle">Hubungi Admin Kami</h2>
+
+    <p class="admin-modal-description">
+      Silakan pilih admin WhatsApp yang ingin kamu hubungi.
+    </p>
+
+    <button
+      type="button"
+      class="admin-choice"
+      data-admin="1"
+    >
+      <span class="admin-choice-icon">☘</span>
+      <span>
+        <strong>Admin 1</strong>
+        <small>Chat melalui WhatsApp</small>
+      </span>
+      <span class="admin-arrow">›</span>
+    </button>
+
+    <button
+      type="button"
+      class="admin-choice"
+      data-admin="2"
+    >
+      <span class="admin-choice-icon">☘</span>
+      <span>
+        <strong>Admin 2</strong>
+        <small>Chat melalui WhatsApp</small>
+      </span>
+      <span class="admin-arrow">›</span>
+    </button>
+
+    <p class="admin-modal-footer">
+      New Primagama Galur · Siap membantu kamu!
+    </p>
+  </div>
+</div>
+
+<a class="skip" href="#beranda">Lewati ke konten</a>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#beranda" class="brand"><img src="logo-primagama.png" alt="Logo NEW PRIMAGAMA Powered by Zenius"></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    <nav id="menu" class="menu" aria-label="Navigasi utama">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#program">Program Belajar</a>
+      <a href="#promo">Promo</a>
+      <a href="#fasilitas">Fasilitas</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#daftar" class="btn btn-yellow nav-cta">Daftar Sekarang</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="beranda" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <img class="hero-logo" src="logo-primagama.png" alt="NEW PRIMAGAMA Powered by Zenius">
+      <h1>Wujudkan Prestasi, Raih Masa Depan Gemilang!</h1>
+      <p class="tagline">Bimbingan Belajar untuk Meraih Prestasi dan Masa Depan Gemilang.</p>
+      <p>NEW PRIMAGAMA GALUR hadir sebagai teman belajar siswa untuk memahami pelajaran dengan lebih baik, meningkatkan kepercayaan diri, dan mempersiapkan diri menghadapi ujian.</p>
+      <div class="btn-row">
+        <a href="#program" class="btn btn-purple">Lihat Program Belajar</a>
+        <a href="#" class="btn btn-yellow wa-link">Konsultasi Gratis</a>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="hero.png" alt="Ilustrasi suasana belajar siswa" data-fallback>
+      <figcaption></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="section alt">
+  <div class="container">
+    <h2>Kenali NEW PRIMAGAMA GALUR</h2>
+    <div class="about-grid">
+      <div>
+        <h3>Profil singkat</h3>
+        <p>NEW PRIMAGAMA GALUR adalah lembaga bimbingan belajar yang berfokus membantu siswa belajar lebih terarah, memahami materi pelajaran, dan mempersiapkan diri menghadapi evaluasi akademik.</p>
+        <h3>Pendekatan pembelajaran</h3>
+        <p>Siswa didampingi untuk memahami konsep, berlatih soal, dan memperkuat materi yang belum dikuasai dengan suasana belajar yang nyaman.</p>
+        <h3>Nilai untuk siswa dan orang tua</h3>
+        <p>Siswa mendapat teman belajar yang sabar dan terarah. Orang tua mendapat kemudahan berkomunikasi tentang kebutuhan belajar anak.</p>
+        <div class="vm">
+          <p class="draft">Visi Misi Bimbel NewPrimagama Galur</p>
+          <h3>Visi</h3>
+          <p>Menjadi teman belajar yang dipercaya siswa dan orang tua dalam meraih prestasi.</p>
+          <h3>Misi</h3>
+          <ul>
+            <li>Menyediakan pendampingan belajar yang terarah.</li>
+            <li>Menciptakan suasana belajar yang nyaman dan menyenangkan.</li>
+            <li>Membangun kepercayaan diri siswa dalam belajar.</li>
+          </ul>
+        </div>
+      </div>
+      <figure>
+        <img src="tentang.png" alt="Ilustrasi ruang belajar" loading="lazy" data-fallback>
+        <figcaptionGambar ilustrasi, ganti dengan foto tempat bimbel.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAM -->
+<section id="program" class="section">
+  <div class="container">
+    <h2>PROGRAM REGULUER</h2>
+    <p class="note"></p>
+    <div class="cards3 program-cards">
+      <article class="card"><h3>SD - Kelas 4–6</h3>
+        <p>⭐ 2-4 kali Pertemuan</p>
+        <p>⭐ Pendampingan Mata pelajaran Sidanira & TKA</p>
+        <p>⭐ Konsultasi Siswa/PR</p>
+        <p>⭐ Persiapan Ulangan Harian & Ulangan Semester</p>
+        <p>⭐ Fun Learning</p>
+        <p>⭐ Try Out Berkala</p>
+        <p>⭐ Konsultasi SPMB/PPDB</p>
+      <a href="#" class="btn btn-outline wa-link" data-msg="Program Reguler SD kelas 4–6">Tanya Program</a></article>
+      <article class="card"><h3>SMP — Kelas 7–9</h3>
+        <p>⭐ 2-3 Kali Pertemuan</p>
+        <p>⭐ Khusus Kelas 9 (3-4 Pertemuan)</p>
+        <p>⭐ Pendampingan Mata Pelajaran Sidanira & TKA</p>
+        <p>⭐ Konsultasi Siswa/PR</p>
+        <p>⭐ Persiapan Ulangan Harian & Ulangan Semester</p>
+        <p>⭐ Fun Learning</p>
+        <p>⭐ Try Out Berkala</p>
+        <p>⭐ Konsultasi SPMB/PPDB</p>
+        <a href="#" class="btn btn-outline wa-link" data-msg="Program Reguler SMP kelas 7–9">Tanya Program</a></article>
+      <article class="card"><h3>SMA/SMK — Kelas 10–12</h3>
+        <p>⭐ 2-3 Kali Pertemuan</p>
+        <p>⭐ Khusus Kelas 12(3-4 Kali Pertemuan)</p>
+        <p>⭐ Pendampingan Mata Pelajaran Umum, TKA & UTBK</p>
+        <p>⭐ Konsultasi Siswa/PR</p>
+        <p>⭐ Persiapan Ulangan Harian & Ulangan Semester</p>
+        <p>⭐ Fun Learning</p>
+        <p>⭐ Try Out Berkala</p>
+        <p>⭐ Konsultasi PTN</p>
+        <a href="#" class="btn btn-outline wa-link" data-msg="Program Reguler SMA/SMK kelas 10–12">Tanya Program</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- PROMO -->
+<section id="promo" class="section promo">
+  <div class="container">
+    <h2>Harga Spesial!</h2>
+    <p class="sub">
+      Temukan penawaran menarik untuk mendukung perjalanan belajar kamu.
+    </p>
+
+    <div class="price-grid">
+
+      <!-- SD KELAS 4-5 -->
+      <article class="price-card">
+        <span class="price-level">SD · KELAS 4–5</span>
+        <p class="new-price">Rp 8.950.000</p>
+        <p class="price-note">Untuk 1 tahun</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SD kelas 4–5 dengan biaya Rp 8.950.000">
+          Ambil Promo
+        </a>
+      </article>
+
+      <!-- SD KELAS 6 -->
+      <article class="price-card featured">
+        <span class="price-level">SD · KELAS 6</span>
+        <p class="new-price">Rp 8.950.000</p>
+        <p class="price-note">Untuk 1 tahun + insentif TKA</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SD kelas 6 dengan biaya Rp 8.950.000 termasuk insentif TK">
+          Ambil Promo
+        </a>
+      </article>
+
+      <!-- SMP KELAS 7-8 -->
+      <article class="price-card">
+        <span class="price-level">SMP · KELAS 7–8</span>
+        <p class="new-price">Rp 9.000.000</p>
+        <p class="price-note">Untuk 1 tahun</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SMP kelas 7–8 dengan biaya Rp 9.950.000">
+          Ambil Promo
+        </a>
+      </article>
+
+      <!-- SMP KELAS 9 -->
+      <article class="price-card featured">
+        <span class="price-level">SMP · KELAS 9</span>
+        <p class="new-price">Rp 9.950.000</p>
+        <p class="price-note">Untuk 1 tahun + insentif TKA</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SMP kelas 9 dengan biaya Rp 9.950.000 termasuk insentif TKA">
+          Ambil Promo
+        </a>
+      </article>
+
+      <!-- SMA/SMK KELAS 10-11 -->
+      <article class="price-card">
+        <span class="price-level">SMA/SMK · KELAS 10–11</span>
+        <p class="new-price">Rp 9.500.000</p>
+        <p class="price-note">Untuk 1 tahun</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SMA/SMK kelas 10–11 dengan biaya Rp 10.950.000">
+          Ambil Promo
+        </a>
+      </article>
+
+      <!-- SMA/SMK KELAS 12 -->
+      <article class="price-card featured">
+        <span class="price-level">SMA/SMK · KELAS 12</span>
+        <p class="new-price">Rp 10.500.000</p>
+        <p class="price-note">Untuk 1 tahun + paket UTBK dan TKA</p>
+        <a href="#" class="btn btn-purple wa-link"
+           data-msg="Informasi program SMA/SMK kelas 12 dengan biaya Rp 9.950.000 termasuk paket UTBK dan TKA">
+          Ambil Promo
+        </a>
+      </article>
+
+    </div>
+
+    <p class="note center">
+      Promo mengikuti ketentuan yang berlaku. Hubungi admin untuk konfirmasi pendaftaran.
+    </p>
+  </div>
+</section>
+
+
+<!-- KEUNGGULAN -->
+<section id="keunggulan" class="section">
+  <div class="container">
+    <h2>Mengapa Memilih NEW PRIMAGAMA GALUR?</h2>
+
+    <div class="keunggulan-card">
+      <div class="keunggulan-list">
+        <p><span>⭐</span> Ruang Kelas Nyaman &amp; Kondusif</p>
+        <p><span>⭐</span> Pembelajaran Interaktif &amp; Mudah Dipahami</p>
+        <p><span>⭐</span> Konsultasi Tugas &amp; PR Sekolah</p>
+        <p><span>⭐</span> Tutor Profesional &amp; Berpengalaman</p>
+        <p><span>⭐</span> Free Konsultasi SPMB &amp; PTN</p>
+      </div>
+
+      <div class="keunggulan-list">
+        <p><span>⭐</span> Suasana Belajar Tidak Membosankan</p>
+        <p><span>⭐</span> Materi Mudah Dipahami</p>
+        <p><span>⭐</span> Try Out Berkala</p>
+        <p><span>⭐</span> Kelas Kecil Lebih Fokus &amp; Personal</p>
+        <p><span>⭐</span> Free Modul Eksklusif &amp; Merchandise</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FASILITAS / GALERI -->
+<section id="fasilitas" class="section alt">
+  <div class="container">
+    <h2>FASILITAS</h2>
+    <p class="note">Fasilitas dan layanan untuk mendukung proses belajar siswa.</p>
+    <div class="cards3 facility-cards">
+      <article class="card plain">
+        <h3>⏺ Free Wi-Fi</h3>
+        <h3>⏺ Pendampingan Akademik</h3>
+        <h3>⏺ Evaluasi Hasil Belajar Berkala</h3>
+        <h3>⏺ Free Trial Class</h3>
+        <h3>⏺ Konsultasi Jurusan & Pendidikan</h3>
+        <h3>⏺ Kelas Intensif Ujian</h3>
+        <h3>⏺ Simulasi UTBK</h3>
+        <h3>⏺ Ekstakurikuler :</h3>
+          <ul class="ekskul-list">
+            <li>Sastra Indonesia</li>
+            <li>English Club</li>
+            <li>E-Sport</li>
+            <li>Desain Grafis</li>
+            <li>Coding</li>
+          </ul>
+      </article>
+      <article class="card plain">
+        <h3>1. Try Out Persiapan PTS/PAS untuk seluruh jenjang</h3>
+        <h3>2. Try Out TKA untuk kelas 6 SD, 9 SMP, dan 12 SMA</h3>
+        <h3>3. Try Out UTBK/SNBT Khusus 12 SMA</h3>
+        <h3>4. Tambahan 1x/ minggu untuk mengambil KonSis (Konsultasi Siswa) di luar jadwal Reguler yang bertujuan untuk memahami materi yang kurang dipahami, atau sesuai dengan kebutuhan siswa. WAJIB membuat janji H-1. Jika KonSis tidak diambil di minggu tersebut maka dinyatakan HANGUS.</h3>
+        <h3>5. Ekstrakulikuler di setiap Sabtu di mulai pukul 11.00 : Coding, Desain Grafis, English Club, dan E-Sport</h3>
+        <h3>6. Konsultasi Strategi PTN</h3>
+        <h3>7. Konsultasi TKA/SPMB</h3>
+      </article>
+    </div>
+    <h3 class="gallery-heading">Galeri Suasana Belajar</h3>
+    <div class="gallery">
+      <button class="g-item" data-full="galeri-1.png" data-alt="Ilustrasi tampilan depan tempat bimbel">
+        <img src="galeri-1.png" alt="Ilustrasi tampilan depan tempat bimbel" loading="lazy" data-fallback>
+      </button>
+
+      <button class="g-item" data-full="galeri-2.png" data-alt="Ilustrasi ruang kelas">
+        <img src="galeri-2.png" alt="Ilustrasi ruang kelas" loading="lazy" data-fallback>
+      </button>
+
+      <button class="g-item" data-full="galeri-3.png" data-alt="Ilustrasi meja belajar siswa">
+        <img src="galeri-3.png" alt="Ilustrasi meja belajar siswa" loading="lazy" data-fallback>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="section">
+  <div class="container">
+    <h2>PROGRAM UNGGULAN</h2>
+    <p class="note"></p>
+    <div class="cards3">
+      <blockquote class="quote"><p>KELAS REGULER</p>
+        <footer>Belajar Secara Rutin Sesuai Mata Pelajaran Sekolah Dengan Metode Efektif & Mudah Di Pahami</footer></blockquote>
+      <blockquote class="quote"><p>KELAS INTENSIF</p>
+        <footer>Program Intensif Untuk Kamu Yang Ingin Belajar Lebih Fokus, Dan Lebih Siap Menghadapi Ujian</footer></blockquote>
+      <blockquote class="quote"><p>KELAS PRIVATE</p>
+        <footer>Belajar Lebih Fokus Dengan Pendampingan Maksimal</footer></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ALUR / DAFTAR -->
+<section id="daftar" class="section alt">
+  <div class="container">
+    <h2>Mulai Perjalanan Belajarmu</h2>
+    <ol class="steps">
+      <li><h3>Hubungi admin</h3><p>Hubungi admin untuk mendapatkan informasi.</p></li>
+      <li><h3>Konsultasi kebutuhan</h3><p>Konsultasikan jenjang, kebutuhan, dan program belajar.</p></li>
+      <li><h3>Terima informasi</h3><p>Dapatkan informasi pendaftaran, jadwal, dan biaya dari admin.</p></li>
+    </ol>
+    <div class="center"><a href="#" class="btn btn-purple wa-link">Konsultasi via WhatsApp</a></div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="section">
+  <div class="container">
+    <h2>Kunjungi NEW PRIMAGAMA GALUR</h2>
+    <div class="contact-grid">
+      <div class="card plain">
+        <h3>NEW PRIMAGAMA GALUR</h3>
+        <dl>
+          <dt>Alamat</dt><dd id="c-address"></dd>
+          <dt>WhatsApp admin</dt><dd id="c-wa"></dd>
+          <dt>Jam operasional</dt><dd id="c-hours"></dd>
+        </dl>
+        <div class="btn-row"><a href="#" id="route" class="btn btn-purple" target="_blank" rel="noopener">Lihat Rute</a><a href="#" class="btn btn-outline wa-link">Hubungi Admin</a></div>
+      </div>
+      <div class="map" id="map"><p>Peta akan tampil di sini setelah lokasi resmi dikonfirmasi. Isi MAPS_EMBED_URL di script.js.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA PENUTUP -->
+<section class="cta">
+  <div class="container center">
+    <h2>Siap Memulai Langkah Belajar yang Lebih Terarah?</h2>
+    <p>Hubungi NEW PRIMAGAMA GALUR untuk mendapatkan informasi program belajar yang sesuai dengan kebutuhanmu.</p>
+    <div class="btn-row jc"><a href="#" class="btn btn-yellow wa-link">Konsultasi via WhatsApp</a><a href="#beranda" class="btn btn-ghost">Kembali ke Beranda</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <img class="foot-logo" src="logo-primagama.png" alt="NEW PRIMAGAMA Powered by Zenius">
+      <p>NEW PRIMAGAMA GALUR – teman belajar untuk meraih prestasi dan masa depan gemilang.</p>
+    </div>
+    <nav aria-label="Navigasi footer"><h3>Navigasi</h3>
+      <a href="#tentang">Tentang Kami</a><a href="#program">Program Belajar</a><a href="#promo">Promo</a><a href="#fasilitas">Fasilitas</a>
+    </nav>
+    <div><h3>Kontak</h3><p id="f-address"></p><p id="f-wa"></p></div>
+  </div>
+  <p class="copy">&copy; <span id="year"></span> NEW PRIMAGAMA GALUR. Semua hak dilindungi.</p>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau gambar" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Tutup">&times;</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
